@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAE40026222BC43C008C9ED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE40025222BC43C008C9ED8 /* AppDelegate.swift */; };
+		AAE40028222BC43C008C9ED8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE40027222BC43C008C9ED8 /* ViewController.swift */; };
+		AAE4002B222BC43C008C9ED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE40029222BC43C008C9ED8 /* Main.storyboard */; };
+		AAE4002E222BC43C008C9ED8 /* Plannoo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAE4002C222BC43C008C9ED8 /* Plannoo.xcdatamodeld */; };
+		AAE40030222BC43D008C9ED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE4002F222BC43D008C9ED8 /* Assets.xcassets */; };
+		AAE40033222BC43D008C9ED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE40031222BC43D008C9ED8 /* LaunchScreen.storyboard */; };
+		AAE4003E222BC43D008C9ED8 /* PlannooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE4003D222BC43D008C9ED8 /* PlannooTests.swift */; };
+		AAE40049222BC43D008C9ED8 /* PlannooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE40048222BC43D008C9ED8 /* PlannooUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAE4003A222BC43D008C9ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAE4001A222BC43C008C9ED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAE40021222BC43C008C9ED8;
+			remoteInfo = Plannoo;
+		};
+		AAE40045222BC43D008C9ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAE4001A222BC43C008C9ED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAE40021222BC43C008C9ED8;
+			remoteInfo = Plannoo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAE40022222BC43C008C9ED8 /* Plannoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plannoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE40025222BC43C008C9ED8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAE40027222BC43C008C9ED8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAE4002A222BC43C008C9ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAE4002D222BC43C008C9ED8 /* Plannoo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Plannoo.xcdatamodel; sourceTree = "<group>"; };
+		AAE4002F222BC43D008C9ED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAE40032222BC43D008C9ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAE40034222BC43D008C9ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE40039222BC43D008C9ED8 /* PlannooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlannooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE4003D222BC43D008C9ED8 /* PlannooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannooTests.swift; sourceTree = "<group>"; };
+		AAE4003F222BC43D008C9ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE40044222BC43D008C9ED8 /* PlannooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlannooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE40048222BC43D008C9ED8 /* PlannooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannooUITests.swift; sourceTree = "<group>"; };
+		AAE4004A222BC43D008C9ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAE4001F222BC43C008C9ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE40036222BC43D008C9ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE40041222BC43D008C9ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAE40019222BC43C008C9ED8 = {
+			isa = PBXGroup;
+			children = (
+				AAE40024222BC43C008C9ED8 /* Plannoo */,
+				AAE4003C222BC43D008C9ED8 /* PlannooTests */,
+				AAE40047222BC43D008C9ED8 /* PlannooUITests */,
+				AAE40023222BC43C008C9ED8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAE40023222BC43C008C9ED8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAE40022222BC43C008C9ED8 /* Plannoo.app */,
+				AAE40039222BC43D008C9ED8 /* PlannooTests.xctest */,
+				AAE40044222BC43D008C9ED8 /* PlannooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAE40024222BC43C008C9ED8 /* Plannoo */ = {
+			isa = PBXGroup;
+			children = (
+				AAE40025222BC43C008C9ED8 /* AppDelegate.swift */,
+				AAE40027222BC43C008C9ED8 /* ViewController.swift */,
+				AAE40029222BC43C008C9ED8 /* Main.storyboard */,
+				AAE4002F222BC43D008C9ED8 /* Assets.xcassets */,
+				AAE40031222BC43D008C9ED8 /* LaunchScreen.storyboard */,
+				AAE40034222BC43D008C9ED8 /* Info.plist */,
+				AAE4002C222BC43C008C9ED8 /* Plannoo.xcdatamodeld */,
+			);
+			path = Plannoo;
+			sourceTree = "<group>";
+		};
+		AAE4003C222BC43D008C9ED8 /* PlannooTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAE4003D222BC43D008C9ED8 /* PlannooTests.swift */,
+				AAE4003F222BC43D008C9ED8 /* Info.plist */,
+			);
+			path = PlannooTests;
+			sourceTree = "<group>";
+		};
+		AAE40047222BC43D008C9ED8 /* PlannooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAE40048222BC43D008C9ED8 /* PlannooUITests.swift */,
+				AAE4004A222BC43D008C9ED8 /* Info.plist */,
+			);
+			path = PlannooUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAE40021222BC43C008C9ED8 /* Plannoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE4004D222BC43D008C9ED8 /* Build configuration list for PBXNativeTarget "Plannoo" */;
+			buildPhases = (
+				AAE4001E222BC43C008C9ED8 /* Sources */,
+				AAE4001F222BC43C008C9ED8 /* Frameworks */,
+				AAE40020222BC43C008C9ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Plannoo;
+			productName = Plannoo;
+			productReference = AAE40022222BC43C008C9ED8 /* Plannoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAE40038222BC43D008C9ED8 /* PlannooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE40050222BC43D008C9ED8 /* Build configuration list for PBXNativeTarget "PlannooTests" */;
+			buildPhases = (
+				AAE40035222BC43D008C9ED8 /* Sources */,
+				AAE40036222BC43D008C9ED8 /* Frameworks */,
+				AAE40037222BC43D008C9ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAE4003B222BC43D008C9ED8 /* PBXTargetDependency */,
+			);
+			name = PlannooTests;
+			productName = PlannooTests;
+			productReference = AAE40039222BC43D008C9ED8 /* PlannooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAE40043222BC43D008C9ED8 /* PlannooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE40053222BC43D008C9ED8 /* Build configuration list for PBXNativeTarget "PlannooUITests" */;
+			buildPhases = (
+				AAE40040222BC43D008C9ED8 /* Sources */,
+				AAE40041222BC43D008C9ED8 /* Frameworks */,
+				AAE40042222BC43D008C9ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAE40046222BC43D008C9ED8 /* PBXTargetDependency */,
+			);
+			name = PlannooUITests;
+			productName = PlannooUITests;
+			productReference = AAE40044222BC43D008C9ED8 /* PlannooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAE4001A222BC43C008C9ED8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Olivier CHEN";
+				TargetAttributes = {
+					AAE40021222BC43C008C9ED8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					AAE40038222BC43D008C9ED8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AAE40021222BC43C008C9ED8;
+					};
+					AAE40043222BC43D008C9ED8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AAE40021222BC43C008C9ED8;
+					};
+				};
+			};
+			buildConfigurationList = AAE4001D222BC43C008C9ED8 /* Build configuration list for PBXProject "Plannoo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAE40019222BC43C008C9ED8;
+			productRefGroup = AAE40023222BC43C008C9ED8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAE40021222BC43C008C9ED8 /* Plannoo */,
+				AAE40038222BC43D008C9ED8 /* PlannooTests */,
+				AAE40043222BC43D008C9ED8 /* PlannooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAE40020222BC43C008C9ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE40033222BC43D008C9ED8 /* LaunchScreen.storyboard in Resources */,
+				AAE40030222BC43D008C9ED8 /* Assets.xcassets in Resources */,
+				AAE4002B222BC43C008C9ED8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE40037222BC43D008C9ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE40042222BC43D008C9ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAE4001E222BC43C008C9ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE40028222BC43C008C9ED8 /* ViewController.swift in Sources */,
+				AAE40026222BC43C008C9ED8 /* AppDelegate.swift in Sources */,
+				AAE4002E222BC43C008C9ED8 /* Plannoo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE40035222BC43D008C9ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE4003E222BC43D008C9ED8 /* PlannooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE40040222BC43D008C9ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE40049222BC43D008C9ED8 /* PlannooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAE4003B222BC43D008C9ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAE40021222BC43C008C9ED8 /* Plannoo */;
+			targetProxy = AAE4003A222BC43D008C9ED8 /* PBXContainerItemProxy */;
+		};
+		AAE40046222BC43D008C9ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAE40021222BC43C008C9ED8 /* Plannoo */;
+			targetProxy = AAE40045222BC43D008C9ED8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAE40029222BC43C008C9ED8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAE4002A222BC43C008C9ED8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAE40031222BC43D008C9ED8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAE40032222BC43D008C9ED8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAE4004B222BC43D008C9ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAE4004C222BC43D008C9ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAE4004E222BC43D008C9ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LU6GTCZ3K;
+				INFOPLIST_FILE = Plannoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RedOlive.Plannoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAE4004F222BC43D008C9ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LU6GTCZ3K;
+				INFOPLIST_FILE = Plannoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RedOlive.Plannoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAE40051222BC43D008C9ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LU6GTCZ3K;
+				INFOPLIST_FILE = PlannooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RedOlive.PlannooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plannoo.app/Plannoo";
+			};
+			name = Debug;
+		};
+		AAE40052222BC43D008C9ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LU6GTCZ3K;
+				INFOPLIST_FILE = PlannooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RedOlive.PlannooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plannoo.app/Plannoo";
+			};
+			name = Release;
+		};
+		AAE40054222BC43D008C9ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LU6GTCZ3K;
+				INFOPLIST_FILE = PlannooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RedOlive.PlannooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Plannoo;
+			};
+			name = Debug;
+		};
+		AAE40055222BC43D008C9ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LU6GTCZ3K;
+				INFOPLIST_FILE = PlannooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RedOlive.PlannooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Plannoo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAE4001D222BC43C008C9ED8 /* Build configuration list for PBXProject "Plannoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE4004B222BC43D008C9ED8 /* Debug */,
+				AAE4004C222BC43D008C9ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE4004D222BC43D008C9ED8 /* Build configuration list for PBXNativeTarget "Plannoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE4004E222BC43D008C9ED8 /* Debug */,
+				AAE4004F222BC43D008C9ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE40050222BC43D008C9ED8 /* Build configuration list for PBXNativeTarget "PlannooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE40051222BC43D008C9ED8 /* Debug */,
+				AAE40052222BC43D008C9ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE40053222BC43D008C9ED8 /* Build configuration list for PBXNativeTarget "PlannooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE40054222BC43D008C9ED8 /* Debug */,
+				AAE40055222BC43D008C9ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AAE4002C222BC43C008C9ED8 /* Plannoo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AAE4002D222BC43C008C9ED8 /* Plannoo.xcdatamodel */,
+			);
+			currentVersion = AAE4002D222BC43C008C9ED8 /* Plannoo.xcdatamodel */;
+			path = Plannoo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AAE4001A222BC43C008C9ED8 /* Project object */;
+}
